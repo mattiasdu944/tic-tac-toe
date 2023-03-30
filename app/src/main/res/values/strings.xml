@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TresEnRaya</string>
     <string name="Titulo">Tres en raya</string>
+    <string name="puntaje1">Jugador 1 turnos: %d</string>
+    <string name="puntaje2">Jugador 2 turnos: %d</string>
+    <string name="reiniciar_juego">Jugar de nuevo</string>
 </resources>
