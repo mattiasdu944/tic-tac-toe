@@ -29,7 +29,7 @@ public class Resultado extends AppCompatActivity {
         reiniciarButton = findViewById(R.id.reiniciarButton);
         reiniciarButton.setOnClickListener(reiniciarJuego);
 
-        int ganador = i.getIntExtra(MainActivity.GANADOR, 0);
+        int ganador = i.getIntExtra(JuegoActivity.GANADOR, 0);
         ganadorTextView = findViewById(R.id.ganadorTextView);
 
         if( ganador == 1 ){
