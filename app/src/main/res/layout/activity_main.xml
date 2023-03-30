@@ -131,29 +131,6 @@
 
             </androidx.gridlayout.widget.GridLayout>
 
-            <TextView
-                android:id="@+id/ganadorTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:fontFamily="sans-serif"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textSize="34sp" />
-
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/animationLottieView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true" />
-
-            <Button
-                android:id="@+id/reiniciarButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/reiniciar_juego" />
-
 
         </LinearLayout>
     </ScrollView>
